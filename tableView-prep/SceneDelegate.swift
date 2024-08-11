@@ -21,6 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let startVC = IntroViewController()
         let navController = UINavigationController(rootViewController: startVC)
+        navController.navigationBar.tintColor = .white
         
         window?.rootViewController = navController
         window?.makeKeyAndVisible()
